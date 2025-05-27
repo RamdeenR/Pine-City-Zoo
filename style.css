@@ -1,13 +1,127 @@
-* {
-    font-family: calibri;
+header {
+    position: fixed;
+    background-color: aqua;
+    width: 100%;
+    height: 200px;
+    margin-top: 0%;
+    padding-top: 0%;
 }
 
-header 
-{
+#navigation {
     position: fixed;
-    background-color:yellowgreen;
-    border-color: black;
-    margin-top: 0%;
+    top: 010px;
+    left: 10px;
     width: 100%;
+    height: 200px;
+    z-index: 1000; 
 }
- 
+
+#map {
+   position: flexible;
+   width: 100%;
+   padding: 205px;
+   padding-left: 0%;
+   padding-right: 0%;
+   padding-bottom: 0%;
+}
+
+#animal-list {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 50;
+    background-color: lightyellow;
+}
+
+#animal-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: lightyellow;
+    text-decoration: none;
+    padding-top: 50px;
+}
+
+gap {
+    border-style:ridge;
+    padding: 20px;
+    margin: 30px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: calibri;
+    font-size: larger;
+}
+
+#nxtpage {
+    position: fixed;
+    top: 010px;
+    left: 10px;
+    width: auto;
+    height: auto;
+    z-index: 1000; 
+    background-color: lightseagreen;
+    padding: 20px;
+}
+
+#places {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: lightyellow;
+    text-decoration: none;
+    padding-top: 50px;
+}
+
+gap {
+    border-style:ridge;
+    padding: 20px;
+    margin: 30px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: calibri;
+    font-size: larger;
+}
+  
+#content {
+    object-position: 50%;
+    padding-bottom: 50px;
+    background-color: lightseagreen;
+    -ms-text-size-adjust: auto;
+    font-size: x-large;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+h1 {
+    padding: 10px;
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+    font-size: 2.5em;
+    color: darkblue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    background-color: lightpink;
+}
+
+h4 {
+    margin: 0%;
+    font-size: larger;
+    font-weight: 2000;
+}
+
+#text {
+    margin: 0%;
+    font-family: calibri;
+    font-weight: bold;
+}
